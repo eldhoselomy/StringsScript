@@ -1,0 +1,27 @@
+{
+  "": {
+    "dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.d",
+    "object": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.o",
+    "swift-dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/master.swiftdeps"
+  },
+  "/Users/love/Resources/StringsScript/Sources/StringsScriptCore/Extensions.swift": {
+    "object": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/Extensions.swift.o",
+    "swiftmodule": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/Extensions.swiftdeps"
+  },
+  "/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScript.swift": {
+    "object": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScript.swift.o",
+    "swiftmodule": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScript~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScript.swiftdeps"
+  },
+  "/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScriptCore.swift": {
+    "object": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.swift.o",
+    "swiftmodule": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.swiftdeps"
+  },
+  "/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScriptCoreError.swift": {
+    "object": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCoreError.swift.o",
+    "swiftmodule": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCoreError~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCoreError.swiftdeps"
+  }
+}

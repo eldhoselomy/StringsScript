@@ -1,0 +1,10 @@
+"app_name" = "Application Name";
+"buttons.login" = "Login";
+"buttons.register" = "Register";
+"terms_and_conditions" = "Terms And Conditions";
+"titles.button.checkout" = "Checkout";
+"titles.button.notification_count" = "%{notification_count}";
+"titles.button.price" = "price %{price}";
+"titles.navigation.home" = "Home";
+"titles.navigation.register_now" = "Register";
+"version_number" = "version number %{version} ";

@@ -1,0 +1,100 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "main": ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.swiftmodule","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule","<StringsScript.exe>","<StringsScript.module>","<StringsScriptCore.module>"]
+  "test": ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.swiftmodule","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptPackageTests.xctest/Contents/MacOS/StringsScriptPackageTests","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.swiftmodule","<StringsScript.exe>","<StringsScript.module>","<StringsScriptCore.module>","<StringsScriptPackageTests.test>","<StringsScriptTests.module>"]
+  "StringsScript.exe": ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript","<StringsScript.exe>"]
+  "StringsScript.module": ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.swiftmodule","<StringsScript.module>"]
+  "StringsScriptCore.module": ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule","<StringsScriptCore.module>"]
+  "StringsScriptPackageTests.test": ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptPackageTests.xctest/Contents/MacOS/StringsScriptPackageTests","<StringsScriptPackageTests.test>"]
+  "StringsScriptTests.module": ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.swiftmodule","<StringsScriptTests.module>"]
+default: "main"
+commands: 
+  "<C.StringsScript.exe>":
+    tool: phony
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript"]
+    outputs: ["<StringsScript.exe>"]
+
+  "<C.StringsScript.module>":
+    tool: phony
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.swiftmodule"]
+    outputs: ["<StringsScript.module>"]
+
+  "<C.StringsScriptCore.module>":
+    tool: phony
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule"]
+    outputs: ["<StringsScriptCore.module>"]
+
+  "<C.StringsScriptPackageTests.test>":
+    tool: phony
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptPackageTests.xctest/Contents/MacOS/StringsScriptPackageTests"]
+    outputs: ["<StringsScriptPackageTests.test>"]
+
+  "<C.StringsScriptTests.module>":
+    tool: phony
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.swiftmodule"]
+    outputs: ["<StringsScriptTests.module>"]
+
+  "C.StringsScript.exe":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx10.10/release/StringsScript"
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/main.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/Extensions.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScript.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCoreError.swift.o"]
+    outputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-L","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release","-o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript","-module-name","StringsScript","-emit-executable","@/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.product/Objects.LinkFileList","-static-stdlib"]
+
+  "C.StringsScript.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "StringsScript"
+    module-output-path: "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.swiftmodule"
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule","/Users/love/Resources/StringsScript/Sources/StringsScript/main.swift"]
+    outputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/main.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.swiftmodule"]
+    import-paths: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release"]
+    temps-path: "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build"
+    objects: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/main.swift.o"]
+    other-args: ["-swift-version","4.2","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-O","-j4","-DSWIFT_PACKAGE","-module-cache-path","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/ModuleCache","-Xfrontend","-color-diagnostics","-static-stdlib"]
+    sources: ["/Users/love/Resources/StringsScript/Sources/StringsScript/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: true
+    num-threads: "4"
+
+  "C.StringsScriptCore.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "StringsScriptCore"
+    module-output-path: "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule"
+    inputs: ["/Users/love/Resources/StringsScript/Sources/StringsScriptCore/Extensions.swift","/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScript.swift","/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScriptCore.swift","/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScriptCoreError.swift"]
+    outputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/Extensions.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScript.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCoreError.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule"]
+    import-paths: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release"]
+    temps-path: "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build"
+    objects: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/Extensions.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScript.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCoreError.swift.o"]
+    other-args: ["-swift-version","4.2","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-O","-j4","-DSWIFT_PACKAGE","-module-cache-path","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/ModuleCache","-Xfrontend","-color-diagnostics","-static-stdlib"]
+    sources: ["/Users/love/Resources/StringsScript/Sources/StringsScriptCore/Extensions.swift","/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScript.swift","/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScriptCore.swift","/Users/love/Resources/StringsScript/Sources/StringsScriptCore/StringsScriptCoreError.swift"]
+    is-library: true
+    enable-whole-module-optimization: true
+    num-threads: "4"
+
+  "C.StringsScriptPackageTests.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx10.10/release/StringsScriptPackageTests.xctest/Contents/MacOS/StringsScriptPackageTests"
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/Extensions.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScript.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCore.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.build/StringsScriptCoreError.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.build/StringsScriptTests.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptPackageTests.xctest/Contents/MacOS/StringsScriptPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-L","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release","-o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptPackageTests.xctest/Contents/MacOS/StringsScriptPackageTests","-module-name","StringsScriptPackageTests","-Xlinker","-bundle","@/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptPackageTests.product/Objects.LinkFileList","-static-stdlib"]
+
+  "C.StringsScriptTests.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "StringsScriptTests"
+    module-output-path: "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.swiftmodule"
+    inputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptCore.swiftmodule","/Users/love/Resources/StringsScript/Tests/StringsScriptTests/StringsScriptTests.swift","/Users/love/Resources/StringsScript/Tests/StringsScriptTests/XCTestManifests.swift"]
+    outputs: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.build/StringsScriptTests.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.build/XCTestManifests.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.swiftmodule"]
+    import-paths: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release"]
+    temps-path: "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.build"
+    objects: ["/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.build/StringsScriptTests.swift.o","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScriptTests.build/XCTestManifests.swift.o"]
+    other-args: ["-swift-version","4.2","-target","x86_64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-O","-j4","-DSWIFT_PACKAGE","-module-cache-path","/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/ModuleCache","-Xfrontend","-color-diagnostics","-static-stdlib"]
+    sources: ["/Users/love/Resources/StringsScript/Tests/StringsScriptTests/StringsScriptTests.swift","/Users/love/Resources/StringsScript/Tests/StringsScriptTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: true
+    num-threads: "4"
+

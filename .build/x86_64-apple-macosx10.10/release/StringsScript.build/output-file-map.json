@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/StringsScript.d",
+    "object": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/StringsScript.o",
+    "swift-dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/master.swiftdeps"
+  },
+  "/Users/love/Resources/StringsScript/Sources/StringsScript/main.swift": {
+    "object": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/main.swift.o",
+    "swiftmodule": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Resources/StringsScript/.build/x86_64-apple-macosx10.10/release/StringsScript.build/main.swiftdeps"
+  }
+}

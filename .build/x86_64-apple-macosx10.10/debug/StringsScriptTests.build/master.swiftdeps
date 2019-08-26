@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "e123594307935eeb4a6d7850a4ae3489"
+build_time: [1565913837, 267416000]
+inputs:
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Tests/StringsScriptTests/StringsScriptTests.swift": [1565904410, 0]
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Tests/StringsScriptTests/XCTestManifests.swift": [1565775576, 0]

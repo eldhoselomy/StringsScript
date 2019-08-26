@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "9cdefa3adf9b4de2e421bec469e0701c"
+build_time: [1565917627, 47464000]
+inputs:
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/Extensions.swift": [1565775576, 0]
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/StringsScript.swift": [1565913375, 0]
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/StringsScriptCore.swift": [1565917618, 0]
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/StringsScriptCoreError.swift": [1565775576, 0]

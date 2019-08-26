@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "df9af1f51081014f2bca924ebd161189"
+build_time: [1566810510, 388305000]
+inputs:
+  "/Users/love/Resources/StringsScript/Sources/StringsScript/main.swift": [9223372036, 854775807]

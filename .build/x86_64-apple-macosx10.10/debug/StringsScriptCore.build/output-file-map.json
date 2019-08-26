@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/master.swiftdeps"
+  },
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/Extensions.swift": {
+    "dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/Extensions.d",
+    "object": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/Extensions.swift.o",
+    "swiftmodule": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/Extensions.swiftdeps"
+  },
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/StringsScript.swift": {
+    "dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScript.d",
+    "object": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScript.swift.o",
+    "swiftmodule": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScript~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScript.swiftdeps"
+  },
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/StringsScriptCore.swift": {
+    "dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCore.d",
+    "object": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCore.swift.o",
+    "swiftmodule": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCore.swiftdeps"
+  },
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Sources/StringsScriptCore/StringsScriptCoreError.swift": {
+    "dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCoreError.d",
+    "object": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCoreError.swift.o",
+    "swiftmodule": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCoreError~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptCore.build/StringsScriptCoreError.swiftdeps"
+  }
+}

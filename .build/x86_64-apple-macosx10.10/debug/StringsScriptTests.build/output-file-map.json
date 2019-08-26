@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/master.swiftdeps"
+  },
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Tests/StringsScriptTests/StringsScriptTests.swift": {
+    "dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/StringsScriptTests.d",
+    "object": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/StringsScriptTests.swift.o",
+    "swiftmodule": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/StringsScriptTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/StringsScriptTests.swiftdeps"
+  },
+  "/Users/love/Downloads/ios-oss-master/bin/StringsScript/Tests/StringsScriptTests/XCTestManifests.swift": {
+    "dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/XCTestManifests.d",
+    "object": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/love/Downloads/ios-oss-master/bin/StringsScript/.build/x86_64-apple-macosx10.10/debug/StringsScriptTests.build/XCTestManifests.swiftdeps"
+  }
+}

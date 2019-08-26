@@ -1,0 +1,67 @@
+{
+    "locales": {
+        "de": {
+            "buttons": {
+                "login": "Login 2",
+                "register": "Register 2"
+            },
+            "version_number": "version number %{version} 2",
+            "titles": {
+                "button": {
+                    "price": "price %{price} 2",
+                    "checkout": "Checkout 2",
+                    "rewards_count_rewards_colon.two.": "%{reward_count}",
+                    "notification_count": "%{notification_count}"
+                },
+                "navigation": {
+                    "home": "Home 2",
+                    "register_now": "Register 2"
+                }
+            },
+            "terms_and_conditions": "Terms And Conditions 2",
+            "app_name": "Application Name 2"
+        },
+        "en": {
+            "buttons": {
+                "login": "Login",
+                "register": "Register"
+            },
+            "version_number": "version number %{version} ",
+            "titles": {
+                "button": {
+                    "price": "price %{price}",
+                    "checkout": "Checkout",
+                    "rewards_count_rewards_colon.two.": "%{reward_count}",
+                    "notification_count": "%{notification_count}"
+                },
+                "navigation": {
+                    "home": "Home",
+                    "register_now": "Register"
+                }
+            },
+            "terms_and_conditions": "Terms And Conditions",
+            "app_name": "Application Name"
+        },
+        "ja": {
+            "buttons": {
+                "login": "Login 1",
+                "register": "Register 1"
+            },
+            "version_number": "version number %{version} 1",
+            "titles": {
+                "button": {
+                    "price": "price %{price} 1",
+                    "checkout": "Checkout 1",
+                    "rewards_count_rewards_colon.two.": "%{reward_count}",
+                    "notification_count": "%{notification_count}"
+                },
+                "navigation": {
+                    "home": "Home 1",
+                    "register_now": "Register 1"
+                }
+            },
+            "terms_and_conditions": "Terms And Conditions 1",
+            "app_name": "Application Name 1"
+        }
+    }
+}
